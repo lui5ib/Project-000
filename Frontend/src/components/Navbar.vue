@@ -10,28 +10,28 @@
           <li>
             <a
               :href="href1"
-              class="text-black px-3 hover:bg-orange-400 hover:text-white"
+              class="text-black px-3 hover:bg-orange-400 hover:border-2 border-b-black rounded-md hover:text-white"
               >{{ texto1 }}</a
             >
           </li>
           <li>
             <a
               :href="href2"
-              class="text-black px-3 hover:bg-orange-400 hover:text-white"
+              class="text-black px-3 hover:bg-orange-400 hover:border-2 border-b-black rounded-md hover:text-white"
               >{{ texto2 }}</a
             >
           </li>
           <li>
             <a
               :href="href3"
-              class="text-black px- hover:bg-orange-400 hover:text-white"
+              class="text-black px-3 hover:bg-orange-400 hover:border-2 border-b-black rounded-md hover:text-white"
               >{{ texto3 }}</a
             >
           </li>
         </ul>
         <a
           :href="login"
-          class="bg-orange-400 px-4 py-2 rounded-lg text-white font-bold active:bg-orange-500 hover:scale-105 duration-400"
+          class="bg-orange-400 px-4 py-2 rounded-lg text-white font-bold active:bg-orange-500 hover:scale-105 duration-500 hover:shadow-2xl shadow-gray-500"
           >Iniciar Sesión</a
         >
       </div>

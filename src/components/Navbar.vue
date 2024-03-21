@@ -43,7 +43,7 @@ const href3 = ref("#");
 const texto3 = ref("Texto botón 3");
 const login = ref("#");
 
-//OPTIONAL API
+//OPTIONS API
 //export default {
 //   setup() {
 //     const logo = ref("https://www.svgrepo.com/show/333609/tailwind-css.svg");
